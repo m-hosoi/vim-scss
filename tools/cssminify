@@ -1,0 +1,1 @@
+perl -MCSS::Minifier::XS -e '$s=join "",<>;$s=CSS::Minifier::XS::minify($s);print $s' $1
